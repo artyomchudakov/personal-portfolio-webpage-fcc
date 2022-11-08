@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
 :root {
-  --clr-black: #111;
+  --clr-black: #141414;
   --clr-grey: #333;
-  --clr-white: #fff;
+  --clr-white: #f4f4f4;
   --transition: all 0.3s linear;
+  --ff-heading: 'Poiret One', cursive;
 }
 
 * {
@@ -12,7 +15,7 @@
 }
 
 body {
-  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: var(--ff-heading);
 }
 
 .navbar__list {

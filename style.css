@@ -159,6 +159,13 @@ footer {
   background-color: var(--clr-grey);
 }
 
+.description {
+  padding: 5rem 3rem 2rem 3rem;
+  text-align: center;
+  font-size: 0.875rem;
+  color: var(--clr-white);
+}
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .hero__text {
